@@ -1,0 +1,488 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    overflow-y: hidden;
+}
+.left-body{
+    width: 350px;
+    height: 100%;
+    background-color:black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    float: left;
+}
+.left-box1{
+    width: 100%;
+    height: 140px;
+    background-color:#111111;
+    border-radius: 10px;
+}
+.logo{
+    padding: 10px 20px;
+  
+}
+
+.logo img {
+
+    width: 90px;
+    margin-top: 10px;
+}
+.icon-listing{
+    list-style: none;
+    margin-top: 5px;
+    padding-left: 25px;
+}
+.home-list{
+    color: white;
+    font-weight: bolder;
+    
+}
+.search-list{
+    margin-top: 30px;
+    color: antiquewhite;
+}
+.home{
+    margin-left: 20px;
+}
+.home:hover{
+    text-decoration: underline;
+}
+.search{
+    margin-left: 20px;
+}
+.search:hover{
+      text-decoration: underline;
+}
+.left-box2{
+    width: 100%;
+    height: auto;
+    background-color:#111111;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+}
+.library-listing{
+    list-style: none;
+    margin-top: 5px;
+    padding-left: 25px;
+}
+.library-listing li{
+    color: rgb(197, 192, 186);
+    font-weight: bolder;
+    padding-top: 20px;
+}
+.library{
+    font-size: 15px;
+    margin-left: 20px;
+   
+}
+.library:hover{
+    color: white;
+}
+.plus-icon{
+  float: right;
+  margin-right: 25px;
+  font-size: 25px;
+  font-weight: lighter;
+  border-radius: 50px;
+  width: 30px;
+  text-align: center;
+}
+.plus-icon:hover{
+   background-color: #242222;
+}
+.create-playlist{
+   background-color: #252424;
+   margin-left: 10px;
+   border-radius: 8px;
+   line-height: 10px;
+   padding-left: 15px;
+}
+.playlist-head{
+ padding-top: 20px;
+ color: #fff;
+ 
+}
+.playlist-note{
+   font-size: small;
+   color: #fff;
+}
+.playlist-button{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 120px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    border-width: thin;
+}
+.playlist-button:hover{
+    border: 2px solid white;
+}
+.podcast{
+    background-color: #252424;
+    margin-left: 10px;
+   border-radius: 8px;
+   line-height: 10px;
+   padding-left: 15px;
+}
+.podcast-head{
+    padding-top: 15px;
+    color: #fff;
+}
+.podcast-note{
+    font-size: small;
+  color: #fff;
+}
+.podcast-button{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 140px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    border-width: thin;
+}
+.podcast-button:hover{
+    border: 2px solid white;
+}
+.scroll-bar{
+    height: 220px;
+    overflow-y: auto;
+   
+}
+.scroll-bar::-webkit-scrollbar{
+    background: transparent;
+}
+.scroll-bar::-webkit-scrollbar-thumb{
+    background:transparent;
+    
+}
+.scroll-bar:hover::-webkit-scrollbar-thumb{
+    background: #727171;
+    
+}
+.privacy {
+    list-style: none;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+.privacy li{
+    font-size: 12px;
+    margin-top: 15px;
+   
+}
+.privacy li a{
+    text-decoration: none;
+    color: #818080;
+    padding-left: 5px;
+}
+.eng-btn{
+     margin: 40px 30px;
+     padding-bottom: 30px;
+    
+}
+.eng-btn button{
+    padding: 8px 15px;
+    border-radius: 30px;
+    background-color:transparent ;
+    color: #d3c5c5;
+    border: 1px solid #494444;
+}
+.eng-btn button:hover{
+    border: 1px solid white;
+    padding: 9px 16px;
+}
+.main-body{
+    margin-top: 10px;
+    margin-left: 370px;
+    background-color: #181818;
+    height: 640px;
+    border-radius: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.main-body::-webkit-scrollbar{
+   background: transparent;
+   width: 12px;
+}
+
+.main-body:hover::-webkit-scrollbar-thumb{
+    background: #727171;
+}
+.main-topbox{
+    align-items: center;
+    padding: 10px 30px;
+    background: #121212;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}    
+.prev-left{
+   border-radius: 50%;
+   width: 30px;
+   height: 30px;
+   font-size: large;
+   background: black;
+   color: #7d7b7b;
+   border: thin;
+   
+}
+.prev-right{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: large;
+    background: black;
+    color: #7d7b7b;
+    border: thin;
+ }
+ .login{
+    margin-right: 20px;
+   
+ }
+ .signup-btn{
+    background:transparent;
+    color: #d3c5c5;
+    font-size: 15px;
+    border: thin;
+    margin-right: 20px;
+ }
+ .signup-btn:hover{
+    color: white;
+    font-size: 16px;
+ }
+ .login-btn{
+    width: 100px;
+    height: 45px;
+    border-radius: 30px;
+    font-weight: bold;
+ }
+ .login-btn:hover{
+    border: 1px solid white;
+ }
+ .popular-artists{
+    margin-top: 30px;
+    margin-left: 15px;
+    width: 100%;
+    height: 260px;
+ }
+ .profile-head{
+    padding-top: 50px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 5px;
+ }
+ .p-show-all{
+    float: right;
+    color: #818080;
+    font-size: small;
+    font-weight: bold;
+    margin-right: 20px
+ }
+ .profile-card{
+    margin-top: 20px;
+ }
+ .artists{
+    float: left;
+    width: 160px;
+    padding-top: 10px;
+ }
+ .artists:hover{
+    background: #232222;
+
+ }
+ .artists img{
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin-left: 10px;
+ }
+ .profile-play-btn{
+    position: relative;
+ }
+ .profile-play-btn i{
+    background-color: green;
+    padding: 18px;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    top: -50px;
+    opacity: 0;
+ }
+ .artists:hover .profile-play-btn i{
+    opacity: 1;
+ }
+ .artists h4{
+    margin: 10px;
+    color: #d3c5c5;
+ }
+ .artists p{
+   font-size: 15px;
+   line-height: 0;
+   color: #818080;
+   margin: 10px;
+ }
+ .popular-playlist{
+    margin-top: 60px;
+    width: 100%;
+    height: 260px;
+    margin-left: 10px;
+ }
+ .card-head{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 5px;
+ }
+.show-all{
+    float: right;
+    color: #818080;
+    font-size: small;
+    font-weight: bold;
+    margin-right: 20px
+}
+.card{
+    margin-top: 20px;
+} 
+.item{
+    float: left;
+    width: 160px;
+    padding-top: 10px;
+    padding-left: 2px;
+}
+.item:hover{
+    background: #232222;
+}
+.item img{
+    width: 140px;
+  height: 140px;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+.card-play-btn{
+    position: relative;
+}
+.card-play-btn i{
+    background-color: green;
+    padding: 18px;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    top: -50px;
+    opacity: 0;
+}
+.item:hover .card-play-btn i{
+    opacity: 1;
+}
+.item h4{
+    margin-top: 0;
+    color: #d3c5c5;
+    margin: 10px;
+}
+.item p{
+    font-size: 15px;
+    color: #818080;
+    margin: 10px;
+}
+.footer-container{
+    margin-top: 50px;
+}
+.footer{
+   display: flex;
+   gap: 100px;
+   margin-left: 30px;
+}
+.footer-icon{
+    margin-top: 30px;
+    padding-left: 120px;
+}
+.insta{
+    background-color: #292828;
+    padding: 10px;
+    border-radius: 50%;
+    
+    color: white;
+}
+.twitter{
+    background-color: #292828;
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+    margin-left: 15px;
+}
+.fb{
+    background-color: #292828;
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 15px;
+    color:white;
+}
+.footer h4{
+    color: white;
+}
+.footer p{
+    color:#818080;
+    font-weight: lighter;
+    font-size: 15px;
+}
+.footer p:hover{
+    color: white;
+    text-decoration: underline;
+}
+.hr-line{
+    margin: 30px;
+}
+.hr-line hr{
+     border: 1px solid #2d2d2d;
+     
+}
+.copy-right{
+    margin: 10px 40px;
+    margin-bottom: 80px;
+    color: #817b7b;
+    font-size: 14px;
+    font-weight: bold;
+}
+.preview{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right,#ae2896,#509bf5);
+    position: fixed;
+    height: 65px;
+    bottom: 8px;
+    left: 8px;
+    right: 8px;
+    line-height: 0;
+    padding-left: 15px;
+}
+.preview-text{
+    color: #fff;
+    font-size: 15px;
+}
+.preview-btn{
+   margin-right: 20px;
+   margin-top: 8px
+}
+.preview-btn button{
+  height: 48px;
+  width: 180px;
+  border-radius: 30px;
+  border-color: #f0e7e7;
+  font-size: 15px ;
+  font-weight: bold;
+}
+.preview-btn:hover button{
+    border: 1px solid white;
+}
+
+
